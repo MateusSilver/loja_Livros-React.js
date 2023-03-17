@@ -1,0 +1,8 @@
+.letreiro {
+    width: 100%;
+    color: #1c1c1c;
+    background-color: #ffc105;
+    text-align: center;
+    padding: 4px 0;
+    cursor: default;
+}
