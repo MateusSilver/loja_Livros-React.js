@@ -1,7 +1,5 @@
-import "../styles/letreiro.css"
-
 function Letreiro(){
-    <div ClassName="letreiro">
+    <div>
 		<h1>Frete <span>grátis</span> a partir de <span>R$ 100</span></h1>
 	</div>
 }

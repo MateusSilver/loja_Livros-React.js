@@ -2,14 +2,14 @@ import "../styles/search_box.css"
 
 function SearchBar(){
     return (
-        <div class="search_box">
-			<input class="search_txt"
+        <div className="search_box">
+			<input className="search_txt"
 				type="text" 
 			    name="" 
 			    placeholder="Buscar"
 			/>
-			<a href="Buscar" class="Search_btn">
-			    <span class="btn_click">🔍</span>
+			<a href="Buscar" className="Search_btn">
+			    <span className="btn_click">🔍</span>
 			</a>					
 		</div>
     )
