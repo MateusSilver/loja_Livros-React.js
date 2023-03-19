@@ -1,14 +1,13 @@
 import "../styles/produtos.css"
-import getImageUrl from "../utils";
-
 
 
 function Card(props) {
-    console.log(props.id)
+    console.log(props.idImg)
+    let imagem = require(`../img/produtos/${props.idImg}.jpg`)
     return (
         <div className="card">
             <div className="card_img">
-                <img src={getImageUrl(props.id)} alt={props.nome} />
+                <img src={imagem} alt={props.nome} />
             </div>
             <h2>{props.nome}</h2>
             <p>{props.autor}</p>
