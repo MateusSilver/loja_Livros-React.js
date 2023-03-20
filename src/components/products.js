@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 
 function Produtos() {
     const cardsProduto = itens.map(item => (
-        <Card key={item.id} idImg={item.id} nome={item.nome} autor={item.autor} preco={item.preco} />
+        <Card key={item.id} idImg={item.id} nome={item.nome} autor={item.autor} preco={item.preco} quantidade={item.quantidade} />
     ));
       
     return (

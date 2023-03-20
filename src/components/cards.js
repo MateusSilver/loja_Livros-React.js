@@ -3,7 +3,11 @@ import PropTypes from "prop-types";
 
 
 function Card(props) {
-    console.log(props.idImg)
+
+    function addCarrinho(){
+        props.quantidade++;
+    }
+
     let imagem = require(`../img/produtos/${props.idImg}.jpg`)
     return (
         <div className="card">
@@ -13,7 +17,7 @@ function Card(props) {
             <h2>{props.nome}</h2>
             <p>{props.autor}</p>
             <div className="preco">R$ {props.preco.toFixed(2).replace('.',',')} </div>
-            <p><a id="add" href="#">Adicionar ao carrinho</a></p>
+            <p><a id="add" href="#" onClick={addCarrinho}>Adicionar ao carrinho</a></p>
         </div>
     );
 }

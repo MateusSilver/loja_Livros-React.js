@@ -1,12 +1,18 @@
 import "../styles/cadastro.css"
 
 function Newsletter(){
+
+	function cadastrarNewsletter(e){
+		e.preventDefault();//retirar e inserir ajax requisition
+		console.log(`bem vindo`);
+	}
+
     return(
         <div className="cadastro">
 			<div className="box">
 				<h1>Cadastre-se e entre em casa</h1>
 				<p>assine nosso newletter e receba as ultimas promoções em livros de todo tipo</p>
-				<div className="inputs">
+				<form className="inputs" onSubmit={cadastrarNewsletter}>
 					<input 
 					    className="text_input"
 					    id="nome"
@@ -19,12 +25,12 @@ function Newsletter(){
 						type="text" 
 						placeholder="digite seu email"
 					/>
-					<input onclick="cadastrar()"
+					<input
 						className="button"
-						type="button" 
+						type="submit" 
 						value="Cadastrar"
                     />
-				</div>
+				</form>
 			</div>
 		</div>
     )
