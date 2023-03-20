@@ -2,7 +2,7 @@ import "../styles/produtos.css"
 import Card from "./cards";
 import "./produtos"
 import { itens } from "./produtos";
-
+import PropTypes from "prop-types";
 
 
 function Produtos() {
@@ -17,4 +17,13 @@ function Produtos() {
 		</div>
     );
 };
+
+Produtos.propTypes = {
+    key:   PropTypes.number.isRequired,
+    idImg: PropTypes.number.isRequired,
+    nome:  PropTypes.string.isRequired,
+    autor: PropTypes.string.isRequired,
+    preco: PropTypes.string.isRequired
+}
+
 export default Produtos;

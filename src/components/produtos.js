@@ -28,5 +28,11 @@ export const itens = [{
     autor: 'John Fowles',
     preco: 70.00,
     quantidade: 0,
+},{
+    nome: 'Harry potter'
+},{
+    nome: 'O Alquimista'
+},{
+    nome: 'Sherlock Holmes'
 }
 ]

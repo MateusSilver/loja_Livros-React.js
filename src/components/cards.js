@@ -1,4 +1,5 @@
 import "../styles/produtos.css"
+import PropTypes from "prop-types";
 
 
 function Card(props) {
@@ -16,4 +17,19 @@ function Card(props) {
         </div>
     );
 }
+
+Card.propTypes = {
+    idImg: PropTypes.number,
+    nome: PropTypes.string.isRequired,
+    autor: PropTypes.string.isRequired,
+    preco: PropTypes.number
+}
+
+Card.defaultProps = {
+    idImg: 0,
+    nome: 'título desconhecido',
+    autor: 'autor desconhecido',
+    preco: 20.00
+}
+
 export default Card;
