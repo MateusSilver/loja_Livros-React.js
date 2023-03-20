@@ -29,10 +29,21 @@ export const itens = [{
     preco: 70.00,
     quantidade: 0,
 },{
-    nome: 'Harry potter'
+    id: 5,
+    nome: 'Coraline',
+    autor: 'Neil Gaiman',
+    preco: 37.00,
+    quantidade: 0
 },{
-    nome: 'O Alquimista'
+    id: 6,
+    nome: 'A Biblioteca da Meia Noite',
+    autor: 'Matt Haigg',
+    quantidade: 0
 },{
-    nome: 'Sherlock Holmes'
+    id: 7,
+    nome: 'O Alquimista',
+    autor: 'Paulo Coelho',
+    preco: 35.00,
+    quantidade: 0
 }
 ]
