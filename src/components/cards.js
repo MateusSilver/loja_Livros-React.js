@@ -4,8 +4,10 @@ import PropTypes from "prop-types";
 
 function Card(props) {
 
-    function addCarrinho(){
+    function addCarrinho(event){
+        event.preventDefault();
         props.quantidade++;
+        console.log(`${props.nome} quant.: ${props.quantidade}`)
     }
 
     let imagem = require(`../img/produtos/${props.idImg}.jpg`)
