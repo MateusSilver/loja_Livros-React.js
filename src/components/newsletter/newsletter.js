@@ -1,4 +1,4 @@
-import "../styles/cadastro.css"
+import "../../styles/cadastro.css"
 import Formulario from "./formulario";
 
 function Newsletter(){

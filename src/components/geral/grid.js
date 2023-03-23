@@ -1,4 +1,4 @@
-import "../styles/contend.css"
+import "../../styles/contend.css"
 
 function Grid(){
     return(

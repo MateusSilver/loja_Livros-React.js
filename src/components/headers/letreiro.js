@@ -1,4 +1,4 @@
-import "../styles/letreiro.css"
+import "../../styles/letreiro.css"
 
 function Letreiro(){
 	return(

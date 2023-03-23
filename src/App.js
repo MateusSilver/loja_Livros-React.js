@@ -1,9 +1,9 @@
-import Header from './components/header';
-import Grid from './components/grid';
+import Header from './components/headers/header';
+import Grid from './components/geral/grid';
 
 import './styles/App.css';
-import Products from './components/products';
-import Newsletter from './components/newsletter';
+import Products from './components/conteudo_produtos/products';
+import Newsletter from './components/newsletter/newsletter';
 
 function App() {
   return (

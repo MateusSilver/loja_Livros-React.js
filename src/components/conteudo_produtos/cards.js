@@ -1,4 +1,4 @@
-import "../styles/produtos.css"
+import "../../styles/produtos.css"
 import PropTypes from "prop-types";
 
 
@@ -9,7 +9,7 @@ function Card(props) {
         console.log(`${props.nome} quant.: ${props.quantidade}`)
     }
 
-    let imagem = require(`../img/produtos/${props.idImg}.jpg`)
+    let imagem = require(`../../img/produtos/${props.idImg}.jpg`)
     
     return (
         <div className="card" key={props.id}>

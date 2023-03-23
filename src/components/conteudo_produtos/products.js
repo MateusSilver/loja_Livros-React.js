@@ -1,7 +1,7 @@
-import "../styles/produtos.css"
+import "../../styles/produtos.css"
 import Card from "./cards";
-import "./produtos"
-import { itens } from "./produtos";
+import "./database_produtos"
+import { itens } from "./database_produtos";
 import PropTypes from "prop-types";
 
 
