@@ -6,6 +6,7 @@ import PropTypes from "prop-types";
 
 
 function Produtos() {
+
     const cardsProduto = itens.map(item => (
         <Card key={item.id} idImg={item.id} nome={item.nome} autor={item.autor} preco={item.preco} quantidade={item.quantidade} />
     ));
@@ -20,10 +21,10 @@ function Produtos() {
 
 Produtos.propTypes = {
     key:   PropTypes.number.isRequired,
-    idImg: PropTypes.number.isRequired,
-    nome:  PropTypes.string.isRequired,
-    autor: PropTypes.string.isRequired,
-    preco: PropTypes.string.isRequired
+    idImg: PropTypes.number,
+    nome:  PropTypes.string,
+    autor: PropTypes.string,
+    preco: PropTypes.string
 }
 
 export default Produtos;

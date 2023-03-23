@@ -1,4 +1,5 @@
 import SearchBar from "./searchbar";
+import UserArea from "./userarea";
 
 function Menu(){
     return (
@@ -8,6 +9,7 @@ function Menu(){
 				<li>Sobre nós</li>
 			</ul>
 			<SearchBar/>
+			<UserArea/>
 		</nav>
     )
 }
